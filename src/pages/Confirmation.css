@@ -1,0 +1,36 @@
+.confirmation {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .confirmation h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .confirmation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .confirmation li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .home-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;
+  }
+  
+  

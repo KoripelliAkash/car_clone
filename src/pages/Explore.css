@@ -1,0 +1,70 @@
+.explore {
+    display: flex;
+    padding: 2rem;
+  }
+  
+  .filters {
+    width: 200px;
+    margin-right: 2rem;
+  }
+  
+  .filters h2,
+  .filters h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .filters label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .car-list {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .car-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .car-card.selected {
+    background-color: #e6f2ff;
+  }
+  
+  .car-card h3 {
+    margin-top: 0;
+  }
+  
+  .total-bill {
+    /* position: fixed; */
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .total-bill button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .total-bill button:hover {
+    background-color: #0056b3;
+  }
+  
+  
